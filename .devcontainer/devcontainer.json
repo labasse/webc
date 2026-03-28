@@ -11,5 +11,5 @@
             ]
         }
     },
-    "postCreateCommand": "bash install.sh"
+    "postCreateCommand": "bash install.sh && bash build.sh . 3000"
 }
