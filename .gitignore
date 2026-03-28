@@ -57,3 +57,4 @@ dkms.conf
 # Web assemblies
 *.wasm
 *.wasm.map
+*.out.js

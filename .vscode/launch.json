@@ -4,7 +4,7 @@
         {
             "type": "node-terminal",
             "name": "Rebuild all",
-            "command": "./build.sh ${workspaceFolderBasename} ${config:livePreview.portNumber}",
+            "command": "bash ./build.sh ${workspaceFolder} ${config:livePreview.portNumber}",
             "request": "launch", 
             "serverReadyAction": {
                 "action": "openExternally",

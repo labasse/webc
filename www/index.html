@@ -10,13 +10,13 @@
   <p id="greetings2">(loading...)</p>
   <script type="text/javascript">
     const greetings = msg => Module.ccall(
-      'greetings', 'number', [ 'string' ], msg
+      'greetings', 'number', [ 'string' ], [ msg ]
     )
     const greetingsAsync = async (msg, delay) => await Module.ccall(
       'greetingsAsync' , undefined, [ 'string', 'number' ], [ msg, delay ], 
       { async: true }
     )
-    let Module = {
+    var Module = {
       onRuntimeInitialized: async () => {
         const sampleReturn = greetings("world")
         
