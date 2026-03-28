@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Web assemblies
+*.wasm
+*.wasm.map

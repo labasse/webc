@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.includePath": [
+        "/workspaces/emsdk/upstream/emscripten/system/include"
+    ],
+    "livePreview.serverRoot": "/www",
+    "livePreview.debugOnExternalPreview": true,
+    "livePreview.tasks.runTaskWithExternalPreview": true
+}
