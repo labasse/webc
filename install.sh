@@ -8,5 +8,5 @@ cd emsdk
 ./emsdk activate latest
 
 # First build to have wasm
-cd CODESPACE_VSCODE_FOLDER
-bash build.sh
+cd $CODESPACE_VSCODE_FOLDER
+bash build.sh . 3000
