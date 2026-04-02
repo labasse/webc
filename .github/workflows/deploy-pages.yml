@@ -30,7 +30,7 @@ jobs:
           version: 'latest'
       
       - name: Build with Emscripten
-        run: ./build.sh . 3000 $EMSDK
+        run: bash ./build.sh . 3000 $EMSDK
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
