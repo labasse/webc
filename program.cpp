@@ -4,6 +4,7 @@ int getSampleDelay() {
     return 1000;
 }
 
+// If those functions change, update $EXPORT variable in build.sh
 extern "C" {
     int greetings(const char *msg) { 
         // Use js code

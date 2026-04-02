@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Here are the exported methods with a preceeding '_' 
+# Usage : build.sh src_path port [emsdk_path]
+
+# Here are the exported methods with a leading '_' 
 EXPORT=_greetings,_greetingsAsync
 
-EMSDK_PATH=/workspaces/emsdk
+EMSDK_PATH=${3:-/workspaces/emsdk}
 CC=emcc
 SRC="$1/*.cpp"
 INC=
